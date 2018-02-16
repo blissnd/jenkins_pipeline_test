@@ -11,11 +11,9 @@ pipeline {
                                                 echo 'Hello Sir'
                                         }
                                 }
-　
                                 stage("linux") {
                                 agent any
-　
-                                        steps {
+					steps {
                                                 echo 'Hello Sir'
                                         }
                                 }
